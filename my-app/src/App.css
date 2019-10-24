@@ -37,3 +37,16 @@ img {
 .form-control::placeholder {
   color: #bbb !important;
 }
+.navlink {
+  cursor: pointer;
+  color: white;
+}
+#mobile-nav > ul.navbar-nav.ml-auto > li > a {
+  color: white;
+}
+#mobile-nav > ul.navbar-nav.ml-auto > li:nth-child(2) > a > img {
+  cursor: pointer;
+}
+#mobile-nav > ul.navbar-nav.ml-auto > li:nth-child(2) > a {
+  cursor: pointer;
+}

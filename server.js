@@ -18,8 +18,10 @@ const db = require("./config/keys").mongoURI;
 
 //Connect to MongoDB
 //npm run server
+
 mongoose
-  .connect(db)
+
+  .connect(db, { useFindAndModify: false })
   .then(() => console.log("MongoDB Connected"))
   .catch(err => console.log(err));
 
